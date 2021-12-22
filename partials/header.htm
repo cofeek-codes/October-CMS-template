@@ -1,0 +1,40 @@
+ <!--!HEADER START-->
+ <header class="header  {% if this.page.id != 'home' %} active {% endif %}">
+    <div class="wrapper">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="/" class="header__logo-link">
+                    <img src="{{ './assets/img/svg/odigo-logo.svg'|theme }}" alt="odigo-logo" class="header__logo-pic">
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#articles" class="header__header-link js-scroll">Articles</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#locations" class="header__header-link js-scroll">Locations</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#videos" class="header__header-link js-scroll">Videos</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#sign-in" class="header__header-link js-scroll">Sign in</a>
+                    </li>
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close__line-1 nav-close__line"></span>
+                    <span class="header__nav-close__line-2 nav-close__line"></span>
+                </div>
+            </nav>
+            <!--BURGER-->
+            <div class="header__burger burger">
+                <span class="burger__line burger__line_top"></span>
+                <span class="burger__line burger__line_center"></span>
+                <span class="burger__line burger__line_bottom"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<!--BURGER-->
+<!--!HEADER END-->

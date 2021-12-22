@@ -1,0 +1,39 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!--icon package-->
+   
+    <!--icon package-->
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+</head>
+<body>
+
+
+    {% partial 'header' %}
+
+
+
+    {% page %}
+
+
+{% partial 'footer' %}
+
+
+
+    <script src="{{ 'assets/js/main.js'|theme }}"></script>
+
+
+    {% framework extras %}
+    {% scripts %}
+
+    
+</body>
+</html>
